@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main{
+    display: flex;
+}
+
+.screen-1{
+    position: sticky;
+    top: 0;
+    width: 50vw;
+    height: 100vh;
+    padding: 30px;
+    background-color: rgb(37, 37, 37);
+}
+
+.screen-1 h2{
+    font-family: 'vcr_osd_monoregular';
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 30px;
+    padding-bottom: 30px;
+    color: rgb(255, 0, 247); 
+}
+
+.screen-1 label{
+    font-size: 18px;
+    color: rgb(0, 255, 255);
+    font-family: 'Source Code Pro', monospace;
+}
+
+input[type="text"]{
+    margin: 0 5px;
+    padding: 5px;
+    outline: none;
+}
+
+.screen-2{
+    width: 50vw;
+    background-color: #FFFF;
+}
+
+.page img{
+    width: 50vw;
+}
+
+button{
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+    margin: 10px 0 20px 0; 
+    padding: 5px 10px;
+    background-color: rgb(255, 0, 247);
+    color: #FFFF;
+    border: none;
+    border-radius: 4px;
+}
+
+.code-text{
+    padding: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.code{
+    background-color: white;
+    border-radius: 2px;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+

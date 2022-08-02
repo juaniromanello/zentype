@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="assets/font/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Juego De Programación</title>
+</head>
+<body>
+    <main class="main">
+        <section class="screen-1">
+            <h2>Ayudanos a codear nuestra web</h2>
+            <div id="navbar-html" class="show">
+                <form action="">
+                    <label for="">Escribí "navbar":</label>
+                    <input id="navbar" type="text">
+                    <br>
+                </form>
+                <button onclick="valor_navbar()">CODEAR</button>
+            </div>
+            <div id="hero-html" class="hide">
+                <form action="">
+                    <label for="">Escribí "hero":</label>
+                    <input id="hero" type="text">
+                    <br>
+                </form>
+                <button onclick="valor_hero()">CODEAR</button>
+            </div>
+            <div id="quienes-html" class="hide">
+                <form action="">
+                    <label for="">Escribí "quienes":</label>
+                    <input id="quienes" type="text">
+                    <br>
+                </form>
+                <button onclick="valor_quienes()">CODEAR</button>
+            </div>
+            <div id="serv-html" class="hide">
+                <form action="">
+                    <label for="">Escribí "servicios":</label>
+                    <input id="serv" type="text">
+                    <br>
+                </form>
+                <button onclick="valor_serv()">CODEAR</button>
+            </div>
+        </section>
+        <section class="screen-2">
+            <div class="page">
+                <div id="htmlNav" class="header hide">
+                        <img class="logo" src="assets/img/logo1.png" alt="logo">
+                        <nav>
+                            <ul>
+                                <li><a href="">INICIO</a></li>
+                                <li><a href="">SERVICIOS</a></li>
+                                <li><a href="">PORTFOLIO</a></li>
+                                <li><a href="">CONTACTO</a></li>
+                            </ul>
+                        </nav>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                </div>
+                <div id="htmlHero" class="hero hide">
+                    <img src="/assets/img/glitch.png" alt="video">
+                    <div class="caption">
+                        <h1 id="white-title">CONCENTRADOS EN BUSCA DE <br> UN RESULTADO</h1>
+                    </div>
+                </div>
+                <div id="htmlQuienes" class="quienes hide">
+                    <img src="/assets/img/separador.png" alt="separador" id="separador">
+                    <section class="quienes-somos">
+                        <h2>¿Quiénes Somos?</h2>
+                        <div class="integrantes">
+                         <div class="integrante">
+                                <img src="/assets/img/formita.png" alt="">
+                                <h>Nombre Apellido</h>
+                            <p>Cargo</p>
+                                </div>
+                            <div class="integrante">
+                                <img src="/assets/img/formita.png" alt="">
+                                <h>Nombre Apellido</h>
+                                    <p>Cargo</p>
+                            </div>
+                                </div>
+                            <div   div class="integrantes2">
+                            <div class="integrante">
+                             <img src="/assets/img/formita.png" alt="">
+                            <h>Nombre Apellido</h>
+                                 <p>Cargo</p>
+                            </div>
+                                <div class="integrante">
+                             <img src="/assets/img/formita.png" alt="">
+                                 <h>Nombre Apellido</h>
+                              <p>Cargo</p>
+                             </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div id="htmlServ" class="servicios hide">
+                <section class="servicios">
+                    <div class="fila">
+                        <div class="servicio">
+                            <img src="assets/img/modelado3d.png" alt="">
+                            <p>MODELADO 3D</p>
+                        </div>
+                        <div class="servicio">
+                            <img src="assets/img/motiongraphics.png" alt="">
+                            <p>MOTION GRAPHICS</p>
+                        </div>
+                        <div class="servicio">
+                            <img src="assets/img/ilustracion.png" alt="">
+                            <p>ILUSTRACIÓN</p>
+                        </div>
+                    </div>
+                    <div class="fila2">
+                        <div class="servicio">
+                            <img src="assets/img/vfx.png" alt="">
+                            <p>VFX</p>
+                        </div>
+                        <div class="servicio">
+                            <img src="assets/img/branding.png" alt="">
+                            <p>BRANDING</p>
+                        </div>
+                        <div class="servicio">
+                            <img src="assets/img/diseñoweb.png" alt="">
+                            <p>DISEÑO WEB</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
