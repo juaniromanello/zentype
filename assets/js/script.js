@@ -45,7 +45,7 @@ function valor_serv(){
         document.getElementById("htmlServ").classList.remove("hide");
         document.getElementById("htmlServ").classList.add("show");
         document.getElementById("serv-html").classList.add("hide");
-        document.getElementById("a-html").classList.remove("hide");
+        document.getElementById("end-html").classList.remove("hide");
     } else {
         alert("El código está mal");
     }
