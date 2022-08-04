@@ -13,13 +13,12 @@
     <main class="main">
         <section class="screen-1">
             <h2>Ayudanos a codear nuestra web</h2>
+            <!-- HTML -->
             <div id="navbar-html" class="show">
-                <form action="">
                     <label for="">Escribí "navbar":</label>
                     <input id="navbar" type="text">
                     <br>
-                </form>
-                <button onclick="valor_navbar()">CODEAR</button>
+                <button class="btn-game" onclick="valor_navbar()">CODEAR</button>
             </div>
             <div id="hero-html" class="hide">
                 <form action="">
@@ -27,7 +26,7 @@
                     <input id="hero" type="text">
                     <br>
                 </form>
-                <button onclick="valor_hero()">CODEAR</button>
+                <button class="btn-game" onclick="valor_hero()">CODEAR</button>
             </div>
             <div id="quienes-html" class="hide">
                 <form action="">
@@ -35,7 +34,7 @@
                     <input id="quienes" type="text">
                     <br>
                 </form>
-                <button onclick="valor_quienes()">CODEAR</button>
+                <button class="btn-game" onclick="valor_quienes()">CODEAR</button>
             </div>
             <div id="serv-html" class="hide">
                 <form action="">
@@ -43,10 +42,62 @@
                     <input id="serv" type="text">
                     <br>
                 </form>
-                <button onclick="valor_serv()">CODEAR</button>
+                <button class="btn-game" onclick="valor_serv()">CODEAR</button>
+            </div>
+            <div id="port-html" class="hide">
+                <form action="">
+                    <label for="">Escribí "portfolio":</label>
+                    <input id="port" type="text">
+                    <br>
+                </form>
+                <button class="btn-game" onclick="valor_port()">CODEAR</button>
+            </div>
+            <div id="cont-html" class="hide">
+                <form action="">
+                    <label for="">Escribí "contacto":</label>
+                    <input id="cont" type="text">
+                    <br>
+                </form>
+                <button class="btn-game" onclick="valor_cont()">CODEAR</button>
+            </div>
+            <!-- VIDEO SIZE 1 -->
+            <div id="video-html1" class="hide">
+                <form action="">
+                    <label for="">Escribí "video":</label>
+                    <input id="video" type="text">
+                    <br>
+                </form>
+                <button class="btn-game" onclick="video_size1()">CODEAR</button>
+            </div>
+            <!-- LINK CSS -->
+            <div id="css-html" class="hide">
+                <form action="">
+                    <label for="">Uy! No está linkeado el css, probá con "styles.css": </label>
+                    <input id="css" type="text">
+                    <br>
+                </form>
+                <button class="btn-game" onclick="css_link()">CODEAR</button>
+            </div>
+            <!-- VIDEO SIZE 2 -->
+            <div id="video-html2" class="hide">
+                <form action="">
+                    <label for="">Escribí "video":</label>
+                    <input id="video" type="text">
+                    <br>
+                </form>
+                <button class="btn-game" onclick="video_size2()">CODEAR</button>
+            </div>
+            <!-- IMG SIZE -->
+            <div id="video-html2" class="hide">
+                <form action="">
+                    <label for="">Escribí "video":</label>
+                    <input id="video" type="text">
+                    <br>
+                </form>
+                <button class="btn-game" onclick="video_size2()">CODEAR</button>
             </div>
             <div id="end-html" class="hide">
-                <button class="finalbtn"><a href="https://juaniromanello.github.io/zen/">MIRÁ LO QUE CODEASTE!</a></button>
+                <button class="finalbtn btn-game"><a href="https://juaniromanello.github.io/zen/">MIRÁ LO QUE CODEASTE!</a></button>
             </div>
         </section>
         <section class="screen-2">
@@ -67,39 +118,42 @@
                         </label>
                 </div>
                 <div id="htmlHero" class="hero hide">
-                    <img src="/assets/img/glitch.png" alt="video">
-                    <div class="caption">
-                        <h1 id="white-title">CONCENTRADOS EN BUSCA DE <br> UN RESULTADO</h1>
+                    <div class="hero">
+                        <video autoplay="true" loop="" muted src="assets/video/hero.mp4" id="hero-video"></video>
                     </div>
                 </div>
                 <div id="htmlQuienes" class="quienes hide">
-                    <img src="/assets/img/separador.png" alt="separador" id="separador">
+                    <img src="assets/img/separador.png" alt="separador" id="separador">
                     <section class="quienes-somos">
-                        <h2>¿Quiénes Somos?</h2>
-                        <div class="integrantes">
-                         <div class="integrante">
-                                <img src="/assets/img/formita.png" alt="">
-                                <h>Nombre Apellido</h>
-                            <p>Cargo</p>
-                                </div>
-                            <div class="integrante">
-                                <img src="/assets/img/formita.png" alt="">
-                                <h>Nombre Apellido</h>
-                                    <p>Cargo</p>
-                            </div>
-                                </div>
-                            <div   div class="integrantes2">
-                            <div class="integrante">
-                             <img src="/assets/img/formita.png" alt="">
-                            <h>Nombre Apellido</h>
-                                 <p>Cargo</p>
-                            </div>
-                                <div class="integrante">
-                             <img src="/assets/img/formita.png" alt="">
-                                 <h>Nombre Apellido</h>
-                              <p>Cargo</p>
-                             </div>
-                        </div>
+                        <h2>¿QUIÉNES SOMOS?</h2>
+            <div class="integrantes">
+                <div class="integrante">
+                    <img src="assets/img/david-roldan.png" alt="" id="imgdavid">
+                    <img src="assets/img/david-roldan-2.png" alt="" class="hide" id="imgdavid2">
+                    <h4>David Roldán</h4>
+                    <p>Animador</p>
+                </div>
+                <div class="integrante">
+                    <img src="assets/img/juan-segura.png" alt="" id="imgjuans">
+                    <img src="assets/img/juan-segura-2.png" alt="" class="hide" id="imgjuans2">
+                    <h4>Juan Segura</h4>
+                    <p>Branding y Diseño Web</p>
+                </div>
+            </div>
+            <div class="integrantes2">
+                <div class="integrante">
+                    <img src="assets/img/juan-palacios.png" alt="" id="imgjuanp">
+                    <img src="assets/img/juan-palacios-2.png" alt="" class="hide" id="imgjuanp2">
+                    <h4>Juan Palacios</h4>
+                    <p>3D Artist</p>
+                </div>
+                <div class="integrante">
+                    <img src="assets/img/juanita-romanello.png" alt="" id="imgjuani">
+                    <img src="assets/img/juanita-romanello-2.png" alt="" class="hide" id="imgjuani2">
+                    <h4>Juanita Romanello</h4>
+                    <p>Programadora</p>
+                </div>
+            </div>
                     </section>
                 </div>
             </div>
@@ -134,6 +188,35 @@
                         </div> 
                     </div>
                 </section>
+            </div>
+            <div id="htmlPortfolio" class="portfolio hide">
+                <h2>PORTFOLIO</h2>
+            <div class="portfolio-container">
+                <img src="assets/img/port1.jpg" alt="" class="noInvertImgs">
+                <img src="assets/img/port2.jpg" alt="" class="noInvertImgs">
+                <img src="assets/img/port3.jpg" alt="" class="noInvertImgs">
+                <img src="assets/img/port4.jpg" alt="" class="noInvertImgs">
+                <img src="assets/img/port5.jpg" alt="" class="noInvertImgs">
+                <img src="assets/img/port6.jpg" alt="" class="noInvertImgs">
+            </div>
+            <button class="portfolio-btn">VER MÁS</button>
+            </div>
+            <div id="htmlContact" class="contact hide">
+            <img src="assets/img/square1.png" alt="" id="square1">
+            <img src="assets/img/square2.png" alt="" id="square2">
+            <div class="blue-container"></div>
+            <div class="pink-container"></div>
+            <div class="gray-container">
+                <h2>¡CONTACTANOS!</h2>
+                <div class="inputs1">
+                    <input type="text" placeholder="NOMBRE">
+                    <input type="text" placeholder="EMAIL">
+                </div>
+                <div class="inputs2">
+                    <input type="text" placeholder="MENSAJE">
+                </div>
+                <button class="portfolio-btn"><a href="">ENVIAR</a></button>
+            </div>
             </div>
         </section>
     </main>
