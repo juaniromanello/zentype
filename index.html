@@ -7,22 +7,22 @@
     <script src="assets/js/script.js"></script>
     <link rel="stylesheet" href="assets/font/stylesheet.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Juego De Programación</title>
+    <title>ZEN TYPE</title>
 </head>
 <body>
     <main class="main">
         <section class="screen-1">
-            <h2>Ayudanos a codear nuestra web</h2>
+            <h2>¡Ayudanos a terminar nuestra web! :)</h2>
             <!-- HTML -->
             <div id="navbar-html" class="show">
-                    <label for="">Escribí "navbar":</label>
+                    <label for="">Para que los usuarios puedan navegar, tenés que hacer una "navbar":</label>
                     <input id="navbar" type="text">
                     <br>
-                <button class="btn-game" onclick="valor_navbar()">CODEAR</button>
+                <button class="btn-game" onclick="valor_navbar()" id="btn1">CODEAR</button>
             </div>
             <div id="hero-html" class="hide">
                 <form action="">
-                    <label for="">Escribí "hero":</label>
+                    <label for="">Vamos a presentar nuestro tagline en un "hero":</label>
                     <input id="hero" type="text">
                     <br>
                 </form>
@@ -30,7 +30,7 @@
             </div>
             <div id="quienes-html" class="hide">
                 <form action="">
-                    <label for="">Escribí "quienes":</label>
+                    <label for="">Presentamos al equipo en "quienes":</label>
                     <input id="quienes" type="text">
                     <br>
                 </form>
@@ -38,7 +38,7 @@
             </div>
             <div id="serv-html" class="hide">
                 <form action="">
-                    <label for="">Escribí "servicios":</label>
+                    <label for="">Les contamos lo que ofrecemos en "servicios":</label>
                     <input id="serv" type="text">
                     <br>
                 </form>
@@ -46,7 +46,7 @@
             </div>
             <div id="port-html" class="hide">
                 <form action="">
-                    <label for="">Escribí "portfolio":</label>
+                    <label for="">Mostramos lo que hacemos en "portfolio":</label>
                     <input id="port" type="text">
                     <br>
                 </form>
@@ -54,20 +54,20 @@
             </div>
             <div id="cont-html" class="hide">
                 <form action="">
-                    <label for="">Escribí "contacto":</label>
+                    <label for="">Creamos la sección de "contacto" para que puedan hablarnos:</label>
                     <input id="cont" type="text">
                     <br>
                 </form>
                 <button class="btn-game" onclick="valor_cont()">CODEAR</button>
             </div>
             <!-- VIDEO SIZE 1 -->
-            <div id="video-html1" class="hide">
+            <div id="video-html" class="hide">
                 <form action="">
-                    <label for="">Escribí "video":</label>
+                    <label for="">¡El video está muy grande! Cambiale el "height":</label>
                     <input id="video" type="text">
                     <br>
                 </form>
-                <button class="btn-game" onclick="video_size1()">CODEAR</button>
+                <button class="btn-game" onclick="video_size()">CODEAR</button>
             </div>
             <!-- LINK CSS -->
             <div id="css-html" class="hide">
@@ -78,38 +78,94 @@
                 </form>
                 <button class="btn-game" onclick="css_link()">CODEAR</button>
             </div>
-            <!-- VIDEO SIZE 2 -->
-            <div id="video-html2" class="hide">
-                <form action="">
-                    <label for="">Escribí "video":</label>
-                    <input id="video" type="text">
-                    <br>
-                </form>
-                <button class="btn-game" onclick="video_size2()">CODEAR</button>
-            </div>
             <!-- IMG SIZE -->
-            <div id="video-html2" class="hide">
+            <div id="img-html" class="hide">
                 <form action="">
-                    <label for="">Escribí "video":</label>
-                    <input id="video" type="text">
+                    <label for="">Hay que cambiar los tamaño de las imágenes, usá "width":</label>
+                    <input id="img" type="text">
                     <br>
                 </form>
-                <button class="btn-game" onclick="video_size2()">CODEAR</button>
+                <button class="btn-game" onclick="img_size()">CODEAR</button>
             </div>
+            <!-- FONT FAMILY -->
+            <div id="font-family" class="hide">
+                <form action="">
+                    <label for="">La fuente que usamos es "vcr_osd_monoregular":</label>
+                    <input id="ff" type="text">
+                    <br>
+                </form>
+                <button class="btn-game" onclick="font_family()">CODEAR</button>
+            </div>
+            <!-- BACKGROUND COLOR -->
+            <div id="background-color" class="hide">
+                <form action="">
+                    <label for="">Probá un "dark-gray" para el fondo:</label>
+                    <input id="bgc" type="text">
+                    <br>
+                </form>
+                <button class="btn-game" onclick="background_color()">CODEAR</button>
+            </div>
+            <!-- FONT COLOR -->
+            <div id="font-color" class="hide">
+                <form action="">
+                    <label for="">"white" para el color del texto:</label>
+                    <input id="fc" type="text">
+                    <br>
+                </form>
+                <button class="btn-game" onclick="font_color()">CODEAR</button>
+            </div>
+            <!-- BUTTON STYLES -->
+            <div id="button-styles" class="hide">
+                <form action="">
+                    <label for="">Los botones están horribles, poneles "cian, magenta":</label>
+                    <input id="bs" type="text">
+                    <br>
+                </form>
+                <button class="btn-game" onclick="button_styles()">CODEAR</button>
+            </div>
+            <!-- INVERT -->
+            <div id="invert" class="hide">
+                <form action="">
+                    <label for="">¡La función del toggle! Casi se te olvida la gracia de la página, usa "invert()":</label>
+                    <input id="inv" type="text">
+                    <br>
+                </form>
+                <button class="btn-game" onclick="invert()">CODEAR</button>
+            </div>
+            <!-- DISPLAY -->
+            <div id="display" class="hide">
+                <form action="">
+                    <label for="">Necesitamos display "flex" para posicionar los elementos:</label>
+                    <input id="dis" type="text">
+                    <br>
+                </form>
+                <button class="btn-game" onclick="display()">CODEAR</button>
+            </div>
+            <!-- BACKGROUND  -->
+            <div id="background" class="hide">
+                <form action="">
+                    <label for="">¿Y las tramas del fondo? Poneles "background":</label>
+                    <input id="back" type="text">
+                    <br>
+                </form>
+                <button class="btn-game" onclick="background()">CODEAR</button>
+            </div>
+            <!-- END BUTTON -->
             <div id="end-html" class="hide">
-                <button class="finalbtn btn-game"><a href="https://juaniromanello.github.io/zen/">MIRÁ LO QUE CODEASTE!</a></button>
+                <button class="finalbtn"><a href="https://juaniromanello.github.io/zen/">MIRÁ LO QUE CODEASTE!</a></button>
             </div>
         </section>
-        <section class="screen-2">
+        <section id="screen-2" class="screen-2">
+            <!-- CODEADO -->
             <div class="page">
                 <div id="htmlNav" class="header hide">
-                        <img class="logo" src="assets/img/logo1.png" alt="logo">
+                        <img src="assets/img/logo1.png" alt="logo">
                         <nav>
                             <ul>
-                                <li><a href="">INICIO</a></li>
-                                <li><a href="">SERVICIOS</a></li>
-                                <li><a href="">PORTFOLIO</a></li>
-                                <li><a href="">CONTACTO</a></li>
+                                <li id="a1">INICIO</li>
+                                <li id="a2">SERVICIOS</li>
+                                <li id="a3">PORTFOLIO</li>
+                                <li id="a4">CONTACTO</li>
                             </ul>
                         </nav>
                         <label class="switch">
@@ -125,33 +181,29 @@
                 <div id="htmlQuienes" class="quienes hide">
                     <img src="assets/img/separador.png" alt="separador" id="separador">
                     <section class="quienes-somos">
-                        <h2>¿QUIÉNES SOMOS?</h2>
+                        <h2 id="h2-quienes">¿QUIÉNES SOMOS?</h2>
             <div class="integrantes">
                 <div class="integrante">
                     <img src="assets/img/david-roldan.png" alt="" id="imgdavid">
-                    <img src="assets/img/david-roldan-2.png" alt="" class="hide" id="imgdavid2">
-                    <h4>David Roldán</h4>
-                    <p>Animador</p>
+                    <h4 id="h4-david">David Roldán</h4>
+                    <p id="p-david">Animador</p>
                 </div>
                 <div class="integrante">
                     <img src="assets/img/juan-segura.png" alt="" id="imgjuans">
-                    <img src="assets/img/juan-segura-2.png" alt="" class="hide" id="imgjuans2">
-                    <h4>Juan Segura</h4>
-                    <p>Branding y Diseño Web</p>
+                    <h4 id="h4-juans">Juan Segura</h4>
+                    <p id="p-juans">Branding y Diseño Web</p>
                 </div>
             </div>
             <div class="integrantes2">
                 <div class="integrante">
                     <img src="assets/img/juan-palacios.png" alt="" id="imgjuanp">
-                    <img src="assets/img/juan-palacios-2.png" alt="" class="hide" id="imgjuanp2">
-                    <h4>Juan Palacios</h4>
-                    <p>3D Artist</p>
+                    <h4 id="h4-juanp">Juan Palacios</h4>
+                    <p id="p-juanp">3D Artist</p>
                 </div>
                 <div class="integrante">
                     <img src="assets/img/juanita-romanello.png" alt="" id="imgjuani">
-                    <img src="assets/img/juanita-romanello-2.png" alt="" class="hide" id="imgjuani2">
-                    <h4>Juanita Romanello</h4>
-                    <p>Programadora</p>
+                    <h4 id="h4-juani">Juanita Romanello</h4>
+                    <p id="p-juani">Programadora</p>
                 </div>
             </div>
                     </section>
@@ -161,45 +213,46 @@
                 <section class="servicios">
                     <div class="fila">
                         <div class="servicio">
-                            <img src="assets/img/modelado3d.png" alt="">
-                            <p>MODELADO 3D</p>
+                            <img src="assets/img/modelado3d.png" alt="" id="serv1">
+                            <p id="p-modelado">MODELADO 3D</p>
                         </div>
                         <div class="servicio">
-                            <img src="assets/img/motiongraphics.png" alt="">
-                            <p>MOTION GRAPHICS</p>
+                            <img src="assets/img/motiongraphics.png" alt="" id="serv2">
+                            <p id="p-motion">MOTION GRAPHICS</p>
                         </div>
                         <div class="servicio">
-                            <img src="assets/img/ilustracion.png" alt="">
-                            <p>ILUSTRACIÓN</p>
+                            <img src="assets/img/ilustracion.png" alt="" id="serv3">
+                            <p id="p-ilus">ILUSTRACIÓN</p>
                         </div>
                     </div>
                     <div class="fila2">
                         <div class="servicio">
-                            <img src="assets/img/vfx.png" alt="">
-                            <p>VFX</p>
+                            <img src="assets/img/vfx.png" alt="" id="serv4">
+                            <p id="p-vfx">VFX</p>
                         </div>
                         <div class="servicio">
-                            <img src="assets/img/branding.png" alt="">
-                            <p>BRANDING</p>
+                            <img src="assets/img/branding.png" alt="" id="serv5">
+                            <p id="p-branding">BRANDING</p>
                         </div>
                         <div class="servicio">
-                            <img src="assets/img/diseñoweb.png" alt="">
-                            <p>DISEÑO WEB</p>
+                            <img src="assets/img/diseñoweb.png" alt="" id="serv6">
+                            <p id="p-diseño">DISEÑO WEB</p>
                         </div> 
                     </div>
                 </section>
             </div>
             <div id="htmlPortfolio" class="portfolio hide">
-                <h2>PORTFOLIO</h2>
+                <h2 id="h2-portfolio">PORTFOLIO</h2>
             <div class="portfolio-container">
-                <img src="assets/img/port1.jpg" alt="" class="noInvertImgs">
-                <img src="assets/img/port2.jpg" alt="" class="noInvertImgs">
-                <img src="assets/img/port3.jpg" alt="" class="noInvertImgs">
-                <img src="assets/img/port4.jpg" alt="" class="noInvertImgs">
-                <img src="assets/img/port5.jpg" alt="" class="noInvertImgs">
-                <img src="assets/img/port6.jpg" alt="" class="noInvertImgs">
+                <img src="assets/img/port1.jpg" alt="" id="port1">
+                <img src="assets/img/port2.jpg" alt="" id="port2">
+                <img src="assets/img/port3.jpg" alt="" id="port3">
+                <img src="assets/img/port4.jpg" alt="" id="port4">
+                <img src="assets/img/port5.jpg" alt="" id="port5">
+                <img src="assets/img/port6.jpg" alt="" id="port6">
             </div>
-            <button class="portfolio-btn">VER MÁS</button>
+            <button class="" id="btn1">VER MÁS</button>
+            <img src="assets/img/separador.png" alt="separador" id="separador2">
             </div>
             <div id="htmlContact" class="contact hide">
             <img src="assets/img/square1.png" alt="" id="square1">
@@ -207,7 +260,7 @@
             <div class="blue-container"></div>
             <div class="pink-container"></div>
             <div class="gray-container">
-                <h2>¡CONTACTANOS!</h2>
+                <h2 id="h2-contactanos">¡CONTACTANOS!</h2>
                 <div class="inputs1">
                     <input type="text" placeholder="NOMBRE">
                     <input type="text" placeholder="EMAIL">
@@ -215,9 +268,16 @@
                 <div class="inputs2">
                     <input type="text" placeholder="MENSAJE">
                 </div>
-                <button class="portfolio-btn"><a href="">ENVIAR</a></button>
+                <button class=""><a href="">ENVIAR</a></button>
             </div>
             </div>
+            <!-- IMÁGENES -->
+            <img src="assets/img/navbar.png" alt="" class="hide" id="nav-img">
+            <video autoplay="true" loop="" muted src="assets/video/hero.mp4" id="video-img" class="hide"></video>
+            <img src="assets/img/quienes.png" alt="" class="hide" id="quienes-img">
+            <img src="assets/img/services.png" alt="" class="hide" id="services-img">
+            <img src="assets/img/portfolio.png" alt="" class="hide" id="portfolio-img">
+            <img src="assets/img/contactanos.png" alt="" class="hide" id="contactanos-img">
         </section>
     </main>
 </body>

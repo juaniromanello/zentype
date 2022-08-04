@@ -7,7 +7,10 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    text-decoration: none;
 }
+
+
 
 .main{
     display: flex;
@@ -22,11 +25,13 @@
     background-color: rgb(37, 37, 37);
 }
 
+
+
 .screen-1 h2{
     font-family: 'vcr_osd_monoregular';
     font-weight: 400;
     letter-spacing: 2px;
-    font-size: 30px;
+    font-size: 28px;
     padding-bottom: 30px;
     color: rgb(255, 0, 247); 
 }
@@ -35,6 +40,7 @@
     font-size: 18px;
     color: rgb(0, 255, 255);
     font-family: 'Source Code Pro', monospace;
+    line-height: 35px;
 }
 
 input[type="text"]{
@@ -46,10 +52,7 @@ input[type="text"]{
 .screen-2{
     width: 50vw;
     background-color: #FFFF;
-}
-
-.page img{
-    width: 50vw;
+    color: #111111;
 }
 
 .btn-game{
@@ -63,8 +66,16 @@ input[type="text"]{
     border-radius: 4px;
 }
 
-.finalbtn{
+.finalbtn a{
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+    margin: 10px 0 20px 0; 
+    padding: 5px 10px;
     background-color: rgb(0, 255, 255);
+    color: #FFFF;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
 }
 
 .btn-game a{
@@ -102,4 +113,67 @@ input[type="text"]{
 .video-size{
     width: 50vw;
 }
+
+/* IMG SIZE */
+
+.separador-size{
+    width: 50vw;
+}
+
+.nosotros-size{
+    width: 12vw;
+}
+
+.serv-size{
+    width: 5vw;
+}
+
+.port-size{
+    width: 8vw;
+}
+
+.square-size{
+    width: 14vw;
+}
+
+/* FONT-FAMILY */
+
+.font-family{
+    font-family: 'vcr_osd_monoregular';
+}
+
+.portfolio-btn{
+    background-color: white;
+    padding: 5px 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    border-right: 5px solid #11ffff;
+    border-left: 5px solid #ff00f9;
+  }
+
+  #nav-img{
+    width: 50vw;
+  }
+
+  #video-img{
+    width: 50vw;
+  }
+
+  #quienes-img{
+    width: 50vw;
+  }
+
+  #services-img{
+    width: 50vw;
+  }
+
+  #portfolio-img{
+    width: 50vw;
+  }
+
+  #contactanos-img{
+    width: 50vw;
+  }
 
