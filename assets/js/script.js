@@ -1,12 +1,14 @@
-document.getElementById("navbar")
-    .addEventListener("keyup", function(event) {
-    event.preventDefault();
-    if (event.keyCode === 13) {
-        document.getElementById("btn1").click();
-    }
-});
 
 /* HTML */
+
+
+document.addEventListener('keypress', function (e) {
+    if (e.keyCode === 13 || e.which === 13) {
+        e.preventDefault();
+        return false;
+    }
+    
+});
 
 function valor_navbar(){
     let navbar=document.getElementById("navbar").value;
